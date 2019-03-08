@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3a7695ec-06ec-4b5b-a10e-5bb28de41698": {
+        "id": "3a7695ec-06ec-4b5b-a10e-5bb28de41698",
+        "parent": null,
+        "name": "SigmaExample",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4a12005c-06d1-447a-9c57-90541902ef7d"
+        ],
+        "isRemovable": false,
+        "filePath": "SigmaExample"
+      },
+      "4a12005c-06d1-447a-9c57-90541902ef7d": {
+        "id": "4a12005c-06d1-447a-9c57-90541902ef7d",
+        "parent": "3a7695ec-06ec-4b5b-a10e-5bb28de41698",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigmaExample/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "3a7695ec-06ec-4b5b-a10e-5bb28de41698",
+    "openFiles": [
+      "4a12005c-06d1-447a-9c57-90541902ef7d"
+    ],
+    "currentFileId": "4a12005c-06d1-447a-9c57-90541902ef7d",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SigmaExample",
+    "projectDescription": "Sigma Example",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1552065948999
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SigmaExample",
+      "url": "https://github.com/tsangwailok/SigmaExample"
+    }
+  }
+}
